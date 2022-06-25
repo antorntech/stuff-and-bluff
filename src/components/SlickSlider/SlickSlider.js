@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import "./SlickSlider.css";
+import SingleSlider from "./SingleSlider";
 
 const SlickSlider = () => {
+  const [products, setProducts] = useState([]);
+  useEffect(() => {
+    fetch("products.json")
+      .then((res) => res.json())
+      .then((data) => setProducts(data));
+  }, []);
   var settings = {
     dots: true,
     infinite: false,
@@ -42,9 +49,19 @@ const SlickSlider = () => {
   return (
     <div>
       {" "}
-      <h2>Featured Items</h2>
+      <div className="wrapper flex justify-between pb-4 px-5">
+        <div className="left">
+          <h2 className="text-2xl">Featured Products</h2>
+        </div>
+        <div className="right">
+          <i class="fa-solid fa-arrow-left-long "></i>
+          <i class="fa-solid fa-arrow-right-long pl-3"></i>
+        </div>
+      </div>
       <Slider {...settings}>
-        <div></div>
+        {products.map((product) => (
+          <SingleSlider key={product.id} product={product}></SingleSlider>
+        ))}
       </Slider>
     </div>
   );
