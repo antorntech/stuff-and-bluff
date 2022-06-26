@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import backgroundImg from "../../images/category-banner/countdown.png";
-import watchBg from "../../images/category-banner/watchbg.png";
+import neonShoes from "../../images/category-banner/neonShoes.png";
 
 const CountDown = () => {
   const [timerDays, setTimerDays] = useState("00");
@@ -68,13 +68,13 @@ const CountDown = () => {
     >
       <div className="grid lg:grid-cols-2 gap-4">
         <div>
-          <img className="lg:w-2/3 mx-auto" src={watchBg} alt="" />
+          <img className="lg:w-2/3 mx-auto" src={neonShoes} alt="" />
         </div>
         <div className="flex flex-col justify-center">
           <header>
             <h1
               style={{ fontFamily: `"Dancing Script", cursive` }}
-              className="text-white text-3xl lg:text-5xl text-center"
+              className="text-white text-2xl lg:text-5xl text-center"
             >
               <span className="text-primary">SAVE</span> ON PERIPHERALS
             </h1>
