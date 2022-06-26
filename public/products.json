@@ -9,11 +9,11 @@
   },
   {
     "id": 2,
-    "name": "T-Shirt",
-    "description": "This t-shirt is so beautiful and so attractive.",
-    "category": "T-Shirt2",
-    "img": "https://i.ibb.co/CbyKgm6/tshirt2.png",
-    "price": 220
+    "name": "Shoes",
+    "description": "This shoes is so beautiful and so attractive.",
+    "category": "Shoes-1",
+    "img": "https://i.ibb.co/ftZpBGd/istockphoto-1249496770-170667a-1.png",
+    "price": 820
   },
   {
     "id": 3,
@@ -25,10 +25,10 @@
   },
   {
     "id": 4,
-    "name": "T-Shirt",
+    "name": "Watch",
     "description": "This t-shirt is so beautiful and so attractive.",
-    "category": "T-Shirt4",
-    "img": "https://i.ibb.co/wgBWxbN/tshirt4.png",
+    "category": "Watch-1",
+    "img": "https://i.ibb.co/QXjv3hd/watch1-1.png",
     "price": 220
   },
   {
@@ -41,10 +41,10 @@
   },
   {
     "id": 6,
-    "name": "T-Shirt",
-    "description": "This t-shirt is so beautiful and so attractive.",
-    "category": "T-Shirt6",
-    "img": "https://i.ibb.co/JrY7X2v/tshirt3.png",
+    "name": "Shoes",
+    "description": "This shoes is so beautiful and so attractive.",
+    "category": "Shoes-2",
+    "img": "https://i.ibb.co/vz8wDdQ/shoes.png",
     "price": 220
   },
   {

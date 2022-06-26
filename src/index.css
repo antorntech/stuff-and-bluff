@@ -20,7 +20,7 @@ code {
 
 .cartBtn {
   position: absolute;
-  left: 20px;
+  left: 0;
   top: 437px;
   transition: all 0.3s linear;
 }
@@ -81,4 +81,14 @@ code {
   top: 0;
   left: 0;
   background-color: transparent;
+}
+
+@media screen and (max-width: 992px) {
+  .card:hover .cartBtn {
+    left: 0;
+    width: 100%;
+    top: 350px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  }
 }

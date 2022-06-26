@@ -6,7 +6,7 @@ import watchBg from "../../images/category-banner/watchbg.png";
 
 const Category = () => {
   return (
-    <div className="py-8 lg:py-12 px-4 lg:px-0">
+    <div className="py-8 lg:py-24 px-4 lg:px-0">
       <header className="productCategoryHeader py-5 lg:py-6 ">
         <h2
           className="text-3xl font-bold"
@@ -16,7 +16,7 @@ const Category = () => {
         </h2>
         <div className="underLine bg-primary"></div>
       </header>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-y-4 gap-0 lg:gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-y-6 gap-0 lg:gap-8">
         <div className="main" style={{ background: "#56ff001c" }}>
           <div className="submain">
             <img className="mx-auto" src={clotheBg} alt="" />

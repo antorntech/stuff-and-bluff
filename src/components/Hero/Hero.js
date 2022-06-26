@@ -8,7 +8,7 @@ const Hero = () => {
         <img src={banner} class="md:w-32 lg:w-1/2" alt="" />
         <div>
           <h1
-            class="text-6xl font-bold"
+            class="text-3xl lg:text-6xl font-bold"
             style={{ fontFamily: `"Dancing Script", cursive` }}
           >
             Stuff And <span className="text-primary">Bluff</span>
