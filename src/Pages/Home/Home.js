@@ -1,5 +1,6 @@
 import React from "react";
 import Category from "../../components/Category/Category";
+import CountDown from "../../components/CountDown/CountDown";
 import Hero from "../../components/Hero/Hero";
 import SlickSlider from "../../components/SlickSlider/SlickSlider";
 
@@ -9,6 +10,7 @@ const Home = () => {
       <Hero></Hero>
       <SlickSlider></SlickSlider>
       <Category></Category>
+      <CountDown></CountDown>
     </div>
   );
 };
