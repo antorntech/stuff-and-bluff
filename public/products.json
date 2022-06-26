@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "T-Shirt",
-    "description": "This t-shirt is so beautiful and this is a brand new collection of summer.",
+    "description": "This t-shirt is so beautiful and so attractive.",
     "category": "T-Shirt1",
     "img": "https://i.ibb.co/nBt0QNS/tshirt1.png",
     "price": 220
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "T-Shirt",
-    "description": "This t-shirt is so beautiful and this is a brand new collection of summer.",
+    "description": "This t-shirt is so beautiful and so attractive.",
     "category": "T-Shirt2",
     "img": "https://i.ibb.co/CbyKgm6/tshirt2.png",
     "price": 220
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "T-Shirt",
-    "description": "This t-shirt is so beautiful and this is a brand new collection of summer.",
+    "description": "This t-shirt is so beautiful and so attractive.",
     "category": "T-Shirt3",
     "img": "https://i.ibb.co/JrY7X2v/tshirt3.png",
     "price": 220
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "T-Shirt",
-    "description": "This t-shirt is so beautiful and this is a brand new collection of summer.",
+    "description": "This t-shirt is so beautiful and so attractive.",
     "category": "T-Shirt4",
     "img": "https://i.ibb.co/wgBWxbN/tshirt4.png",
     "price": 220
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "T-Shirt",
-    "description": "This t-shirt is so beautiful and this is a brand new collection of summer.",
+    "description": "This t-shirt is so beautiful and so attractive.",
     "category": "T-Shirt5",
     "img": "https://i.ibb.co/CbyKgm6/tshirt2.png",
     "price": 220
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "name": "T-Shirt",
-    "description": "This t-shirt is so beautiful and this is a brand new collection of summer.",
+    "description": "This t-shirt is so beautiful and so attractive.",
     "category": "T-Shirt6",
     "img": "https://i.ibb.co/JrY7X2v/tshirt3.png",
     "price": 220
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "name": "T-Shirt",
-    "description": "This t-shirt is so beautiful and this is a brand new collection of summer.",
+    "description": "This t-shirt is so beautiful and so attractive.",
     "category": "T-Shirt7",
     "img": "https://i.ibb.co/wgBWxbN/tshirt4.png",
     "price": 220
@@ -58,7 +58,7 @@
   {
     "id": 8,
     "name": "T-Shirt",
-    "description": "This t-shirt is so beautiful and this is a brand new collection of summer.",
+    "description": "This t-shirt is so beautiful and so attractive.",
     "category": "T-Shirt8",
     "img": "https://i.ibb.co/nBt0QNS/tshirt1.png",
     "price": 220
