@@ -29,6 +29,7 @@ const SingleSlider = (props) => {
           <div class="cartBtn flex justify-center">
             <button class="btn btn-wide" id="cartBtn">
               Add To Cart
+              <i class="fa-brands fa-opencart pl-2"></i>
             </button>
           </div>
         </div>
