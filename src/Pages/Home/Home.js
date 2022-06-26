@@ -1,4 +1,5 @@
 import React from "react";
+import Category from "../../components/Category/Category";
 import Hero from "../../components/Hero/Hero";
 import SlickSlider from "../../components/SlickSlider/SlickSlider";
 
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
       <Hero></Hero>
       <SlickSlider></SlickSlider>
+      <Category></Category>
     </div>
   );
 };

@@ -7,7 +7,10 @@ const Hero = () => {
       <div class="hero-content flex-col lg:flex-row-reverse">
         <img src={banner} class="md:w-32 lg:w-1/2" alt="" />
         <div>
-          <h1 class="text-5xl font-bold">
+          <h1
+            class="text-6xl font-bold"
+            style={{ fontFamily: `"Dancing Script", cursive` }}
+          >
             Stuff And <span className="text-primary">Bluff</span>
           </h1>
           <p class="py-6 text-gray-400">

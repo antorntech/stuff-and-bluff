@@ -49,9 +49,15 @@ const SlickSlider = () => {
   return (
     <div>
       {" "}
-      <div className="wrapper flex justify-between pb-4 px-5">
+      <div className="wrapper flex justify-between pb-4 px-4 lg:px-0">
         <div className="left">
-          <h2 className="text-2xl">Featured Products</h2>
+          <h2
+            className="text-3xl font-bold"
+            style={{ fontFamily: `"Dancing Script", cursive` }}
+          >
+            Featured Products
+          </h2>
+          <div className="underLine bg-primary"></div>
         </div>
         <div className="right text-gray-400">
           <i class="fa-solid fa-arrow-left-long "></i>

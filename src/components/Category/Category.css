@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@300&display=swap");
+
+.productCategoryHeader {
+  position: relative;
+}
+
+.productCategoryHeader .underLine {
+  position: absolute;
+  left: 90px;
+  width: 95px;
+  height: 3px;
+  margin-bottom: 10px;
+}
+
+.main {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.main:hover {
+  box-shadow: rgba(93, 74, 50, 0.904) 0px 13px 27px -5px,
+    rgba(153, 110, 30, 0.733) 0px 8px 16px -8px;
+}
+
+.submain {
+  position: relative;
+  overflow: hidden;
+  font-family: "Dancing Script", cursive;
+}
+
+.submain:hover .categoryDetails {
+  top: 0;
+}
+
+.categoryDetails {
+  position: absolute;
+  top: 400px;
+  background-color: rgba(0, 0, 0, 0.479);
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s linear;
+}
