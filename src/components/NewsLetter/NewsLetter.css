@@ -1,0 +1,12 @@
+.newsLetter input[type="text"] {
+  padding: 5px;
+  margin-top: 20px;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(141, 141, 141, 0.76);
+  color: black;
+}
+
+.newsLetter input[type="text"]:focus {
+  background-color: transparent;
+  outline: none;
+}
