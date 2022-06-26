@@ -31,6 +31,18 @@ const Category = () => {
           <div className="submain">
             <img className="mx-auto" src={clotheBg} alt="" />
             <div className="categoryDetails flex flex-col justify-center">
+              <div class="box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
               <h2 className="text-center text-5xl font-bold text-white">
                 Clothes
               </h2>
@@ -44,6 +56,18 @@ const Category = () => {
           <div className="submain">
             <img className="mx-auto" src={shoesBg} alt="" />
             <div className="categoryDetails flex flex-col justify-center">
+              <div class="box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
               <h2 className="text-center text-5xl font-bold text-white">
                 Shoes
               </h2>
@@ -57,6 +81,18 @@ const Category = () => {
           <div className="submain">
             <img className="mx-auto" src={watchBg} alt="" />
             <div className="categoryDetails flex flex-col justify-center">
+              <div class="box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
               <h2 className="text-center text-5xl font-bold text-white">
                 Watches
               </h2>

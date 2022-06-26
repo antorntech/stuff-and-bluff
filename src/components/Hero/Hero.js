@@ -1,10 +1,23 @@
 import React from "react";
 import banner from "../../images/banner.gif";
+import "./Hero.css";
 
 const Hero = () => {
   return (
     <div class="hero min-h-screen z-30">
       <div class="hero-content flex-col lg:flex-row-reverse">
+        <div class="box">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
         <img src={banner} class="md:w-32 lg:w-1/2" alt="" />
         <div>
           <h1
