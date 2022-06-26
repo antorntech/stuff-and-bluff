@@ -1,9 +1,10 @@
-.box div {
+.hero-content .box div {
   position: absolute;
   width: 60px;
   height: 60px;
   background-color: transparent;
   border: 6px solid rgba(221, 167, 20, 0.8);
+  color: rgb(32, 32, 32);
 }
 
 .box div:nth-child(1) {

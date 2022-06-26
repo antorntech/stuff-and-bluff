@@ -57,15 +57,7 @@ const CountDown = () => {
     return () => clearInterval(interval.current);
   }, []);
   return (
-    <div
-      className="py-12 flex items-center"
-      style={{
-        backgroundImage: `url(${backgroundImg})`,
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-      }}
-    >
+    <div className="py-12 flex items-center bg-gray-300">
       <div className="grid lg:grid-cols-2 gap-4">
         <div>
           <img className="lg:w-2/3 mx-auto" src={neonShoes} alt="" />
@@ -73,13 +65,17 @@ const CountDown = () => {
         <div className="flex flex-col justify-center">
           <header>
             <h1
-              style={{ fontFamily: `"Dancing Script", cursive` }}
+              style={{
+                fontFamily: `"Dancing Script", cursive`,
+                textShadow: "2px 4px 4px rgb(32, 32, 32)",
+              }}
               className="text-white text-2xl lg:text-5xl text-center"
             >
               <span className="text-primary">SAVE</span> ON PERIPHERALS
             </h1>
-            <h2 className="text-white lg:text-2xl text-center mt-5">
-              Turbo Diesel Timing Belt (4WD,2WD/4WD){" "}
+            <h2 className="text-white lg:text-xl text-center mt-5">
+              When you wear a shoes that time you <br /> feel that you fly on
+              the sky.
             </h2>
           </header>
           <div className="grid grid-flow-col lg:gap-5 place-content-center text-center auto-cols-max my-5">
@@ -87,7 +83,7 @@ const CountDown = () => {
               <span className="font-mono text-5xl text-primary">
                 <span>{timerDays}</span>
               </span>
-              DAYS
+              <span style={{ color: "black" }}>DAYS</span>
             </div>
             <div className="py-2">
               <span className="text-white text-5xl">:</span>
@@ -96,7 +92,7 @@ const CountDown = () => {
               <span className=" font-mono text-5xl text-primary">
                 <span> {timerHours}</span>
               </span>
-              HOURS
+              <span style={{ color: "black" }}>HOURS</span>
             </div>
             <div className="py-2">
               <span className="text-white text-5xl">:</span>
@@ -105,7 +101,7 @@ const CountDown = () => {
               <span className=" font-mono text-5xl text-primary">
                 <span>{timerMinutes}</span>
               </span>
-              MINS
+              <span style={{ color: "black" }}>MINS</span>
             </div>
             <div className="py-2">
               <span className="text-white text-5xl">:</span>
@@ -114,7 +110,7 @@ const CountDown = () => {
               <span className="font-mono text-5xl text-primary">
                 <span>{timerSeconds}</span>
               </span>
-              SEC
+              <span style={{ color: "black" }}>SEC</span>
             </div>
           </div>
         </div>
