@@ -13,13 +13,13 @@
 }
 
 .main {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .main:hover {
-  box-shadow: rgba(93, 74, 50, 0.904) 0px 13px 27px -5px,
-    rgba(153, 110, 30, 0.733) 0px 8px 16px -8px;
+  box-shadow: rgba(255, 254, 254, 0.904) 0px 13px 27px -5px,
+    rgba(15, 14, 11, 0.733) 0px 8px 16px -8px;
 }
 
 .submain {

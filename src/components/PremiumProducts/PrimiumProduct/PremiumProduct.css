@@ -27,7 +27,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 25px;
+  margin-top: 35px;
   margin-bottom: 10px;
   font-size: 15px;
   gap: 15px;
@@ -41,6 +41,11 @@
 }
 
 .pagination .pageNum:hover {
+  background-color: #d5ad0b;
+  color: #fff;
+}
+
+.pagination .active {
   background-color: #d5ad0b;
 }
 

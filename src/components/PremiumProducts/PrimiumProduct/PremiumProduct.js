@@ -26,7 +26,7 @@ const PremiumProduct = (props) => {
 
   return (
     <>
-      <div className="products grid grid-cols-3 grid-flow-row place-items-center gap-y-5 mt-5">
+      <div className="products grid grid-cols-2 lg:grid-cols-3 grid-flow-row place-items-center gap-y-5 mt-5 px-2 lg:px-0">
         {currentItems.map((product) => {
           return (
             <div className="premiumProduct">

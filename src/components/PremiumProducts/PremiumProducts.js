@@ -10,9 +10,9 @@ const PremiumProducts = () => {
   }, []);
   return (
     <div className="py-12 lg:py-24">
-      <header className="flex flex-col items-center">
+      <header className="flex flex-col items-center text-center pb-5 lg:pb-10">
         <h1
-          className="text-3xl lg:text-5xl"
+          className="text-3xl lg:text-5xl pb-3"
           style={{ fontFamily: `"Dancing Script", cursive` }}
         >
           Premium Products
@@ -21,7 +21,7 @@ const PremiumProducts = () => {
           There is some premium collection which are best product.
         </p>
         <div
-          className="bg-primary mt-2"
+          className="bg-primary mt-3"
           style={{
             width: "150px",
             height: "3px",
