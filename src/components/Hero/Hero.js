@@ -10,7 +10,7 @@ const Hero = () => {
           <h1 class="text-5xl font-bold">
             Stuff And <span className="text-primary">Bluff</span>
           </h1>
-          <p class="py-6">
+          <p class="py-6 text-gray-400">
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
             a id nisi.

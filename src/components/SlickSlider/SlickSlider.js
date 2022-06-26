@@ -53,7 +53,7 @@ const SlickSlider = () => {
         <div className="left">
           <h2 className="text-2xl">Featured Products</h2>
         </div>
-        <div className="right">
+        <div className="right text-gray-400">
           <i class="fa-solid fa-arrow-left-long "></i>
           <i class="fa-solid fa-arrow-right-long pl-3"></i>
         </div>
