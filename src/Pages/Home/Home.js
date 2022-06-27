@@ -1,6 +1,8 @@
 import React from "react";
+import Brands from "../../components/Brand/Brands";
 import Category from "../../components/Category/Category";
 import CountDown from "../../components/CountDown/CountDown";
+import Footer from "../../components/Footer/Footer";
 import Hero from "../../components/Hero/Hero";
 import NewsLetter from "../../components/NewsLetter/NewsLetter";
 import PremiumProducts from "../../components/PremiumProducts/PremiumProducts";
@@ -17,6 +19,8 @@ const Home = () => {
       <PremiumProducts></PremiumProducts>
       <NewsLetter></NewsLetter>
       <Testimonial></Testimonial>
+      <Brands></Brands>
+      <Footer></Footer>
     </div>
   );
 };

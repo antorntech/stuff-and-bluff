@@ -2,22 +2,33 @@ import React, { useEffect, useState } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import SingleTestimonial from "./SingleTestimonial";
+import SingleBrand from "./SingleBrand";
 
-const Testimonial = () => {
-  const [testimonials, settestimonials] = useState([]);
+const Brands = () => {
+  const [brands, setBrands] = useState([]);
   useEffect(() => {
-    fetch("testimonial.json")
+    fetch("brand.json")
       .then((res) => res.json())
-      .then((data) => settestimonials(data));
+      .then((data) => setBrands(data));
   }, []);
   const settings = {
     dots: true,
-    fade: true,
     infinite: true,
-    speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 5,
     slidesToScroll: 1,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+    responsive: [
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
     <div className="py-12 lg:py-24">
@@ -26,10 +37,10 @@ const Testimonial = () => {
           className="text-3xl lg:text-5xl pb-3"
           style={{ fontFamily: `"Dancing Script", cursive` }}
         >
-          Our Client Say
+          Our Brand
         </h1>
         <p className="text-gray-400">
-          There is some comments which are best selling product.
+          There is some brand which are connect with us.
         </p>
         <div
           className="bg-primary mt-3"
@@ -40,15 +51,12 @@ const Testimonial = () => {
         ></div>
       </header>
       <Slider {...settings}>
-        {testimonials.map((testimonial) => (
-          <SingleTestimonial
-            key={testimonial.id}
-            testimonial={testimonial}
-          ></SingleTestimonial>
+        {brands.map((brand) => (
+          <SingleBrand key={brand.id} brand={brand}></SingleBrand>
         ))}
       </Slider>
     </div>
   );
 };
 
-export default Testimonial;
+export default Brands;
