@@ -5,6 +5,7 @@ import Hero from "../../components/Hero/Hero";
 import NewsLetter from "../../components/NewsLetter/NewsLetter";
 import PremiumProducts from "../../components/PremiumProducts/PremiumProducts";
 import SlickSlider from "../../components/SlickSlider/SlickSlider";
+import Testimonial from "../../components/Testimonial/Testimonial";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <CountDown></CountDown>
       <PremiumProducts></PremiumProducts>
       <NewsLetter></NewsLetter>
+      <Testimonial></Testimonial>
     </div>
   );
 };

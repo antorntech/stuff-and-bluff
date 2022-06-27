@@ -58,7 +58,7 @@ const CountDown = () => {
   }, []);
   return (
     <div className="bg-gray-100">
-      <div className="py-12 flex items-center">
+      <div className="py-12 flex lg:flex-row justify-center items-center">
         <div className="grid lg:grid-cols-2 gap-4">
           <div>
             <img className="lg:w-2/3 mx-auto" src={neonShoes} alt="" />
