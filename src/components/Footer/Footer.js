@@ -1,10 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import backgroundImg from "../../images/footer.png";
 
 const Footer = () => {
   return (
-    <div>
-      <footer class="footer footer-center p-10 bg-gray-100 text-base-content rounded">
+    <div
+      style={{
+        backgroundImage: `url(${backgroundImg})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      <footer class="footer footer-center p-10 text-base-content rounded">
         <div class="grid grid-flow-col gap-4">
           <Link to="/home" class="link link-hover">
             Home
