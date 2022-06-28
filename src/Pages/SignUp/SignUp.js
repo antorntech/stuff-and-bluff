@@ -1,5 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import signUpGif from "../../images/signup.gif";
+import "./SignUp.css";
 
 const SignUp = () => {
   return (
@@ -8,9 +10,9 @@ const SignUp = () => {
         <div className="signup-banner">
           <img className="lg:w-3/4" src={signUpGif} alt="" />
         </div>
-        <div className="signup-form mt-10">
-          <div class="card flex-shrink-0 justify-center w-full max-w-sm shadow-xl bg-base-100 mx-auto">
-            <div class="card-body">
+        <div className="signup-form">
+          <div class="card flex-shrink-0 justify-center w-full max-w-sm shadow-xl bg-base-100 mx-auto py-5">
+            <div class="card-body p-0 mx-8">
               <div class="form-control">
                 <label class="label">
                   <span class="label-text">Name</span>
@@ -26,7 +28,7 @@ const SignUp = () => {
                   <span class="label-text">Email</span>
                 </label>
                 <input
-                  type="text"
+                  type="email"
                   placeholder="email"
                   class="input input-bordered"
                 />
@@ -36,7 +38,7 @@ const SignUp = () => {
                   <span class="label-text">Password</span>
                 </label>
                 <input
-                  type="text"
+                  type="password"
                   placeholder="password"
                   class="input input-bordered"
                 />
@@ -47,8 +49,20 @@ const SignUp = () => {
                 </label>
               </div>
               <div class="form-control mt-6">
-                <button class="btn btn-primary">Login</button>
+                <button class="btn btn-primary">SignUp</button>
               </div>
+              <span className="text-sm text-center">
+                Already Have an Account ?{" "}
+                <Link to="/login" className="text-secondary">
+                  Login
+                </Link>
+              </span>
+            </div>
+            <div class="divider mx-8">OR</div>
+            <div className="socialBtn mx-8">
+              <button className="btn btn-outline btn-wide w-full">
+                Continue With Google
+              </button>
             </div>
           </div>
         </div>

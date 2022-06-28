@@ -1,9 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import auth from "../../firebase.init";
+import { useSignInWithGoogle } from "react-firebase-hooks/auth";
 import loginGif from "../../images/login.gif";
 import "./Login.css";
 
 const Login = () => {
+  const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
   return (
     <div className="p-5 lg:p-10">
       <div className="grid grid-cols-1 lg:grid-cols-2">
@@ -50,7 +53,10 @@ const Login = () => {
             </div>
             <div class="divider mx-8">OR</div>
             <div className="socialBtn mx-8">
-              <button className="btn btn-outline btn-wide w-full">
+              <button
+                onClick={() => signInWithGoogle()}
+                className="btn btn-outline btn-wide w-full"
+              >
                 Continue With Google
               </button>
             </div>
