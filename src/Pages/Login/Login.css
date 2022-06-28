@@ -1,0 +1,19 @@
+.form-control input[type="email"],
+input[type="password"] {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #f4ca27;
+}
+
+.form-control input[type="email"],
+input[type="password"]:focus {
+  outline: none;
+}
+
+.form-control .btn:hover {
+  color: #fff;
+}
+
+.socialBtn .btn:hover {
+  background-color: #d5ad0b;
+}
