@@ -7,6 +7,9 @@ import "./Login.css";
 
 const Login = () => {
   const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
+  if (user) {
+    console.log(user);
+  }
   return (
     <div className="p-5 lg:p-10">
       <div className="grid grid-cols-1 lg:grid-cols-2">
